@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Tic Tac Toe 3D — O and *</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="orb o4"></div>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <defs>
+        <linearGradient id="gO" gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="90" y2="90">
+          <stop offset="0" stop-color="#67E8F9" /><stop offset="1" stop-color="#2563EB" />
+        </linearGradient>
+        <linearGradient id="gS" gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="90" y2="90">
+          <stop offset="0" stop-color="#FDE047" /><stop offset="1" stop-color="#F97316" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
